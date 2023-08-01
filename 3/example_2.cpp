@@ -15,6 +15,7 @@ public:
 
     const std::vector<int>& get_bill() const {return bill;};
     const std::string& get_name() const {return name;};
+    //const 函数供给 const类使用
 
     std::vector<int>& get_bill() {return bill;};
     std::string& get_name() {return name;};
@@ -40,6 +41,8 @@ public:
             [position]                             // call const version of op[]
         );
     }  
+
+    //简单来说就是将 非const数据转换为const，然后送入到const函数中去复用
 };
 
 
