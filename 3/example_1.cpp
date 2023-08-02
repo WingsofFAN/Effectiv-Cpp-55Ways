@@ -6,16 +6,16 @@ int main()
     // char greeting[] = "Hello";
     // char* p1 = greeting;                 // non-const pointer, non-const data
     // const char* p2 = greeting;           // non-const pointer,const data
-    char const* p2_ = greeting;  
     // char* const p3 = greeting;           // const pointer,non-const data
     // const char* const p4 = greeting;     // const pointer,const data
+
+    char const* p2_ = greeting;  
 
     // p1[0] = 'R'; 
     // p2[1] = 'o';
     // p3[2] = 't';
     // p4[3] = 't';
 
-    //
 
     const int a  = 10;
     int b = a;
